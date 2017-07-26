@@ -1,0 +1,6 @@
+<h2>Listado de empresas:</h2>
+    <ul>
+        {% for empresa in object_list %}
+            <li>{{ empresa.nombre }}</li>
+        {% endfor %}
+    </ul>

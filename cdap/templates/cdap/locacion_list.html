@@ -1,0 +1,6 @@
+<h2>Listado de locaciones:</h2>
+    <ul>
+        {% for locacion in object_list %}
+            <li>{{ locacion.nombre }}</li>
+        {% endfor %}
+    </ul>
